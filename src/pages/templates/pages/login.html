@@ -1,0 +1,32 @@
+
+
+	
+<h1>Login</h1>
+<br/>
+	{% if messages %}
+		{% for m in messages %}
+			{{m}}
+		{% endfor %}
+
+	{% endif %}
+
+	<form action="" method=POST>
+		{% csrf_token %}
+	<form>
+		<div>
+			<label for="username">Username</label>
+			<input type="text" name="username">
+			
+		</div>
+		<div>
+			<label for="password">Password</label>
+			<input type="password" name="password">
+		</div>
+
+		<input type="submit" value="Log In" name="butn">
+		<input type="submit" value="Create User" name="butn">
+
+	</form>
+		
+
+<br/><br/>	

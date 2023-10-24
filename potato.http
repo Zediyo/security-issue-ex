@@ -1,0 +1,5 @@
+POST http://localhost:8000/ HTTP/1.1
+X-CSRFToken: lpEUmwqR7XdSMDf1JvaNx067YNV7Pg23
+content-type: application/x-www-form-urlencoded
+
+csrfmiddlewaretoken=aPtEsCjELWm6JW3s5drbR3HjHVPnP7iFl4XoEYzlIJpOlp8jEyrOeTDgvyAkuday&username=aa&password=aa&butn=Log+In
